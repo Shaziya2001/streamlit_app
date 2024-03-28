@@ -1,5 +1,4 @@
 import streamlit as st
-import scipy.stats as stats
 
 def ab_test(control_visitors, control_conversions, treatment_visitors, treatment_conversions, confidence_level):
     # Calculate conversion rates for control and treatment groups
